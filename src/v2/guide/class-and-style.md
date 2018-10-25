@@ -4,7 +4,7 @@ type: guide
 order: 6
 ---
 
-Một nhu cầu thường gặp khi thực hiện ràng buộc dữ liệu (data binding) là quản lí danh sách `class` và các `style` của một phần tử web. Vì cả `class` và `style` đều là thuộc tính, chúng ta có thể dùng `v-bind` để xử lí: chỉ cần sử dụng các biểu đạt (expression) để tạo ra một chuỗi. Tuy nhiên, vì can thiệp vào việc nối chuỗi rất phiền phức và dễ mắc lỗi, Vue cung cấp một số tính năng hỗ trợ khi `v-bind` được dùng với `class` và `style`. Không chỉ có chuỗi, các biểu đạt này có thể xử lí cả mảng và object.
+Một nhu cầu thường gặp khi thực hiện ràng buộc dữ liệu (data binding) là quản lý danh sách `class` và các `style` của một phần tử web. Vì cả `class` và `style` đều là thuộc tính, chúng ta có thể dùng `v-bind` để xử lý: chỉ cần sử dụng các biểu đạt (expression) để tạo ra một chuỗi. Tuy nhiên, vì can thiệp vào việc nối chuỗi rất phiền phức và dễ mắc lỗi, Vue cung cấp một số tính năng hỗ trợ khi `v-bind` được dùng với `class` và `style`. Không chỉ có chuỗi, các biểu đạt này có thể xử lý cả mảng và object.
 
 ## Binding class trong HTML
 
